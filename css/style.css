@@ -47,8 +47,9 @@ body{
 header{
     background-color: rgb(255, 105, 0);
     padding: 20px 0;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 ul{
@@ -93,6 +94,14 @@ img {
 .sostenibility{
     position: absolute;
     left: 60px;
+    bottom: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.sostenibility-six{
+    position: absolute;
+    left: 0px;
     bottom: 20px;
     padding: 8px;
     color: white;
