@@ -9,10 +9,59 @@ body{
 }
 
 /* COMMON */
+.container-fluid {
+    margin: 0 10px;
+    width: calc(100% - 20px);
+}
 
+.row {
+    width: 100%;
+    display: flex;
+    gap: 20px 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.col-list {
+    width: 25%;
+    color: white;
+    font-weight: 600;
+}
+
+.col-logo{
+    width: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-33 {
+    width: calc(100% / 3 - 20px);
+}
 
 /* HEADER */
+header{
+    background-color: rgb(255, 105, 0);
+    padding: 20px 0;
+    position: sticky;
+    width: 100%;
+}
 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding: 4px;
+}
+
+.img-logo{
+    width: 150px;
+}
 
 /* MAIN */
 
