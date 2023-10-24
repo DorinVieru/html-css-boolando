@@ -21,6 +21,7 @@ body{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .col-list {
@@ -30,7 +31,7 @@ body{
 }
 
 .col-logo{
-    width: 50%;
+    width: 30%;
 }
 
 .container {
@@ -46,7 +47,7 @@ body{
 header{
     background-color: rgb(255, 105, 0);
     padding: 20px 0;
-    position: sticky;
+    position: absolute;
     width: 100%;
 }
 
@@ -64,6 +65,80 @@ li{
 }
 
 /* MAIN */
+main {
+    padding-top: 130px;
+}
 
+img {
+    width: 100%;
+}
+
+.product {
+    position: relative;
+    width: 100%;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.sostenibility{
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    padding: 8px;
+    color: white;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.heart {
+    color: black;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.product:hover .hidden {
+    display: block;
+}
+
+.product:hover .show {
+    display: none;
+}
+
+.col-detail{
+    text-align: start;
+}
+
+.price-red{
+    color: red;
+    font-weight: 600;
+}
+
+.price-barred{
+    text-decoration: line-through;
+}
 
 /* FOOTER */
