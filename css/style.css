@@ -58,7 +58,8 @@ ul{
 
 li{
     display: inline;
-    padding: 4px;
+    padding: 0 4px 0 0;
+    color: white;
 }
 
 .img-logo{
@@ -151,3 +152,22 @@ img {
 }
 
 /* FOOTER */
+footer{
+    background-color: rgb(26, 26, 26);
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-content{
+    color: white;
+    text-align: start;
+}
+
+.col-social{
+    color: white;
+}
+
+.title-footer{
+    margin-bottom: 10px;
+}
